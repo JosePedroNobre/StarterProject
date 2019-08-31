@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+            android:id="@+id/vN1"
+            style="@style/DialPadKey.Enabled"
+            android:onClick="onClick"
+            android:text="1"
+            app:layout_constraintBottom_toBottomOf="@+id/vN2"
+            app:layout_constraintEnd_toStartOf="@+id/vN2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vN2" />
+
+    <Button
+            android:id="@+id/vN2"
+            style="@style/DialPadKey.Enabled"
+            android:layout_marginBottom="24dp"
+            android:onClick="onClick"
+            android:text="2"
+            app:layout_constraintBottom_toTopOf="@+id/vN5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+            android:id="@+id/vN3"
+            style="@style/DialPadKey.Enabled"
+            android:onClick="onClick"
+            android:text="3"
+            app:layout_constraintBottom_toBottomOf="@+id/vN2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/vN2"
+            app:layout_constraintTop_toTopOf="@+id/vN2" />
+
+    <Button
+            android:id="@+id/vN4"
+            style="@style/DialPadKey.Enabled"
+            android:onClick="onClick"
+            android:text="4"
+            app:layout_constraintBottom_toBottomOf="@+id/vN5"
+            app:layout_constraintEnd_toStartOf="@+id/vN5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vN5" />
+
+    <Button
+            android:id="@+id/vN5"
+            style="@style/DialPadKey.Enabled"
+            android:layout_marginBottom="24dp"
+            android:onClick="onClick"
+            android:text="5"
+            app:layout_constraintBottom_toTopOf="@+id/vN8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+            android:id="@+id/vN6"
+            style="@style/DialPadKey.Enabled"
+            android:onClick="onClick"
+            android:text="6"
+            app:layout_constraintBottom_toBottomOf="@+id/vN5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/vN5"
+            app:layout_constraintTop_toTopOf="@+id/vN5" />
+
+    <Button
+            android:id="@+id/vN7"
+            style="@style/DialPadKey.Enabled"
+            android:onClick="onClick"
+            android:text="7"
+            app:layout_constraintBottom_toBottomOf="@+id/vN8"
+            app:layout_constraintEnd_toStartOf="@+id/vN8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vN8" />
+
+    <Button
+            android:id="@+id/vN8"
+            style="@style/DialPadKey.Enabled"
+            android:layout_marginBottom="24dp"
+            android:onClick="onClick"
+            android:text="8"
+            app:layout_constraintBottom_toTopOf="@+id/vN0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+            android:id="@+id/vN9"
+            style="@style/DialPadKey.Enabled"
+            android:onClick="onClick"
+            android:text="9"
+            app:layout_constraintBottom_toBottomOf="@+id/vN8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/vN8"
+            app:layout_constraintTop_toTopOf="@+id/vN8" />
+
+    <Button
+            android:id="@+id/vN10"
+            style="@style/DialPadKey.Enabled"
+            android:onClick="onClick"
+            android:text="Forgot"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/vN0"
+            app:layout_constraintEnd_toStartOf="@+id/vN0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vN0" />
+
+    <Button
+            android:id="@+id/vN0"
+            style="@style/DialPadKey.Enabled"
+            android:layout_marginBottom="24dp"
+            android:onClick="onClick"
+            android:text="0"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+            android:id="@+id/textView"
+            style="@style/std_medium_14_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:singleLine="true"
+            android:text="Use fingerprint"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="15dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="8dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/textView"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/textView"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

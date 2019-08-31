@@ -1,0 +1,101 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Main" parent="AppTheme.NoActionBar"/>
+
+    <style name="AppTheme.Dialog" parent="AppTheme.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="std_medium_36_black">
+        <item name="fontFamily">@font/circular_std_medium</item>
+        <item name="android:textColor">@color/blackColor</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="std_medium_18_black">
+        <item name="fontFamily">@font/circular_std_medium</item>
+        <item name="android:textColor">@color/blackColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="std_medium_14_grey">
+        <item name="fontFamily">@font/circular_std_medium</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="std_medium_14_white">
+        <item name="fontFamily">@font/circular_std_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="std_medium_14_black">
+        <item name="android:fontFamily">@font/circular_std_medium</item>
+        <item name="android:textColor">@color/blackColor</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- Buttons styles -->
+    <style name="ActiveButton">
+        <item name="android:fontFamily">@font/circular_std_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/blackColor</item>
+    </style>
+
+    <!-- Others -->
+    <style name="noAnimTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Theme.DoNotDim" parent="android:Theme">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+    <style name="DialPadKey.Enabled" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="fontFamily">@font/circular_std_medium</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+
+    <style name="DialPadKey.Disabled" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="fontFamily">@font/circular_std_medium</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">false</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDisabled</item>
+    </style>
+
+</resources>
+
