@@ -1,4 +1,4 @@
-# Mykickoff
+# StarterProject
 As you all may know, starting an android project is really a pain, you need to setup ```dagger```,```flavors```, ```dependencies```, configure several ```libraries``` sacrifice a goat and two kittens as the meme says. 
 
 This repository aims to kickoff a new android project and for that its packed with the new and latest ```android architecture components```using the following libraries
