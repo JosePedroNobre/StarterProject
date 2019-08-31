@@ -1,0 +1,3 @@
+package com.josenobre.starterproject
+
+class ExampleUnitTest

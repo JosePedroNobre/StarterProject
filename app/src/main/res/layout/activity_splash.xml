@@ -7,10 +7,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/blackColor"
-        tools:context=".ui.flows.welcome.splash.SplashActivity">
+        tools:context="com.josenobre.starterproject.ui.flows.welcome.splash.SplashActivity">
 
     <TextView
-            style="@style/std_medium_36_black"
+            style="@style/std_medium_bold.14_Black"
             android:text="Money\nManaging"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

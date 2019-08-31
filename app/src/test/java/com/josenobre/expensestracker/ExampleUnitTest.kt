@@ -1,3 +1,0 @@
-package com.josenobre.expensestracker
-
-class ExampleUnitTest
